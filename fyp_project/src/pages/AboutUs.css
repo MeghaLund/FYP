@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.about-us-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.main-content1 {
+    padding: 60px;
+    background-image: url('https://media.skinvision.com/2024/06/27153741/getting_started_opt.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 400px);
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.main-content1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+
+.about-us-content {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main-content1 h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-align: left; 
+    z-index: 1; 
+  }
+
+
+.about-us-content h3 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+
+.about-us-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0;
+}
+
+
+.about-us-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about-us-content li {
+    font-size: 1rem;
+    padding: 5px 0;
+    line-height: 1.5;
+}

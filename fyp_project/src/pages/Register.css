@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.register-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #f91248; 
+  box-shadow: 0 0 10px #f91248c5; 
+}
+
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-form label {
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+}
+
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  text-align: left;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.checkbox-container a {
+  color: #af4c77;
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register-btn,
+.Account-btn {
+  background: #af4c77;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 150px; 
+}
+
+.register-btn:hover {
+  background: #982f5c;
+}
+
+.Account-btn {
+  margin-top: 10px;
+  background: #6c757d;
+}
+
+.Account-btn:hover {
+  background: #5a6268;
+}
+
+
+@media screen and (max-width: 768px) {
+  .register-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px; 
+  }
+
+  .register-btn,
+  .Account-btn {
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .register-container {
+    padding: 10px;
+  }
+}
