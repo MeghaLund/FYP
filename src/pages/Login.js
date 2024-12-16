@@ -30,23 +30,27 @@ function Login() {
                 >
                     {() => (
                         <Form>
-                            <label>Email</label>
-                            <Field
-                                type="email"
-                                name="email"
-                                placeholder="Enter your email"
-                                className="input-field"
-                            />
-                            <ErrorMessage name="email" component="div" className="error" />
+                            <div className="field-container">
+                                <label>Email</label>
+                                <Field
+                                    type="email"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    className="input-field"
+                                />
+                                <ErrorMessage name="email" component="div" className="error" />
+                            </div>
 
-                            <label>Password</label>
-                            <Field
-                                type="password"
-                                name="password"
-                                placeholder="Enter your password"
-                                className="input-field"
-                            />
-                            <ErrorMessage name="password" component="div" className="error" />
+                            <div className="field-container">
+                                <label>Password</label>
+                                <Field
+                                    type="password"
+                                    name="password"
+                                    placeholder="Enter your password"
+                                    className="input-field"
+                                />
+                                <ErrorMessage name="password" component="div" className="error" />
+                            </div>
 
                             <button type="submit" className="login-btn">
                                 Log In
@@ -56,7 +60,7 @@ function Login() {
                 </Formik>
 
                 <p>
-                    Not a member? <Link to="/register">Register</Link>
+                    Not a member? <Link to="/register">SingUp</Link>
                 </p>
 
                 <p>

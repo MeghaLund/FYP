@@ -22,6 +22,8 @@ body {
   align-items: flex-start;
   padding-left: 50px;
   overflow: hidden;
+  box-shadow: 0 0 15px rgba(241, 242, 243, 0.5);
+  z-index: 1;
 }
 
 .main-content h2 {

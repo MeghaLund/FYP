@@ -31,11 +31,12 @@ const Header = () => {
             {isServicesOpen && (
               <div className="services-dropdown">
                 <Link 
-                  to="/services/personalized-recommendations" 
-                  className="dropdown-link"
-                >
-                  Personalized Recommendations
-                </Link>
+                   to="/services/PersonalizedRecommendation" 
+                   className="dropdown-link"
+                 >
+                    Personalized Recommendations
+                 </Link>
+
                 <Link 
                   to="/services/SymptomsChecker" 
                   className="dropdown-link"
@@ -49,10 +50,10 @@ const Header = () => {
                   Health Record Management
                 </Link>
                 <Link 
-                  to="/services/emergency-assessment" 
+                  to="/services/SkinCondition" 
                   className="dropdown-link"
                 >
-                  Emergency Assessment
+                  Skin Condition
                 </Link>
                 <Link 
                   to="/services/feedback" 

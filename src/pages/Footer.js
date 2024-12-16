@@ -25,6 +25,7 @@ const Footer = () => {
             <li><a href="/services/symptoms-checker" className="footer-link">Symptoms Checker</a></li>
             <li><a href="/services/health-records" className="footer-link">Health Record Management</a></li>
             <li><a href="/services/emergency-assessment" className="footer-link">Emergency Assessment</a></li>
+            <li><a href="/services/feedback" className="footer-link">Feedback</a></li>
           </ul>
         </div>
 

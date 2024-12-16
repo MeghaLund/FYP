@@ -68,12 +68,12 @@ function Home() {
               alt="Image 8"
             />
           </li>
-          <li>
+          {/* <li>
             <img
               src="https://play-lh.googleusercontent.com/N2cHHFBQgDQaUQORHf_9EuB_hza2C1PGcRg1N7QKZeCyAXdAZu8qYdTNF2zgvX6UAgU=w600-h300-pc0xffffff-pd"
               alt="Image 9"
             />
-          </li>
+          </li> */}
         </ul>
       </div>
 

@@ -15,8 +15,8 @@ import maleTeenBack from "../images/male_teen_back.jpeg";
 import maleTeenFront from "../images/male_teen_front.jpeg";
 import femaleAdultBack from "../images/female_adult_back.jpeg";
 import femaleAdultFront from "../images/female_adult_front.jpeg";
-import maleAdultBack from "../images/male_adult_back.jpeg";
-import maleAdultFront from "../images/male_adult_front.jpeg";
+import maleAdultBack from "../images/male_adult_back.png";
+import maleAdultFront from "../images/male_adult_front.jpg";
 
 const SymptomsChecker = () => {
   const [ageGroup, setAgeGroup] = useState("Infant");
